@@ -1,0 +1,16 @@
+{
+    "name": "harkalygergo/symfony-platform",
+    "type": "symfony-library",
+    "autoload": {
+        "psr-4": {
+            "Harkalygergo\\SymfonyPlatform\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Harkály Gergő",
+            "email": "git@harkalygergo.hu"
+        }
+    ],
+    "require": {}
+}
