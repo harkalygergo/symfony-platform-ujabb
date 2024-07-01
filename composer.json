@@ -12,11 +12,9 @@
             "email": "git@harkalygergo.hu"
         }
     ],
-    "require": {
-        "symfony/dependency-injection": "^7.1",
-        "symfony/framework-bundle": "^7.1"
-    },
     "require-dev": {
+        "symfony/dependency-injection": "^7.1",
+        "symfony/framework-bundle": "^7.1",
         "symfony/http-kernel": "^7.1",
         "phpunit/phpunit": "^11.2"
     }
