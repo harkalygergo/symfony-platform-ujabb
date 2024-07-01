@@ -3,7 +3,7 @@
     "type": "symfony-library",
     "autoload": {
         "psr-4": {
-            "Harkalygergo\\SymfonyPlatform\\": "src/"
+            "HarkalyGergo\\SymfonyPlatform\\": "src/"
         }
     },
     "authors": [

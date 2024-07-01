@@ -1,6 +1,6 @@
 <?php
 
-namespace Harkalygergo\SymfonyPlatform\Controller;
+namespace HarkalyGergo\SymfonyPlatform\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
