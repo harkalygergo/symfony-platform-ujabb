@@ -2,6 +2,7 @@
     "name": "harkalygergo/symfony-platform",
     "description": "Symfony Platform",
     "type": "symfony-library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "HarkalyGergo\\SymfonyPlatform\\": "src/"
