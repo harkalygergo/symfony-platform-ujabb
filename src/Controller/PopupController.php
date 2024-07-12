@@ -9,10 +9,6 @@ class PopupController extends AbstractController
 {
     public function __construct()
     {
-    }
-
-    public function fancy(): Response
-    {
         return new Response('Hello Gergő!');
     }
 }
