@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class PopupController extends AbstractController
 {
-    public function __construct()
+    public function start(): Response
     {
         return new Response('Hello Gergő!');
     }
