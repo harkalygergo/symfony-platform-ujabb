@@ -14,7 +14,8 @@
         }
     ],
     "require": {
-        "php": ">=8.3"
+        "php": ">=8.3",
+        "symfony/debug-bundle": "^7.1"
     },
     "require-dev": {
         "symfony/dependency-injection": "^7.1",
