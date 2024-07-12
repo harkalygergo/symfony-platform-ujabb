@@ -4,6 +4,79 @@ Symfony Platform is a multisite and multilingual compatibility Business Manageme
 
 ---
 
+## Services
+
+- Profile
+  - Rendszerüzenetek
+  - Értesítések
+- Content Management System (CMS)
+    - honlapok
+    - bejegyzés
+    - kategóriák
+    - oldal
+    - megjelenés
+    - menüpontok
+    - popup
+    - galéria / slideshow
+    - médiatár
+    - blokkok
+    - hozzászólások
+- Customer Relationship Management (CRM)
+    - ügyféllista
+    - űrlapok
+    - hirlevél
+    - automatizmusok
+    - webes gombok
+    - chat
+- Enterprise Resource Planning (ERP)
+    - rendszerfelhasználók
+    - feladatkezelő
+    - analitika
+    - időpontfoglaló
+    - ingatlan adatbázis
+    - számlázás
+    - könyvelés
+    - raktár
+    - beszerzés
+    - értékesítés
+    - CRM
+    - HRM
+    - projektmenedzsment
+    - dokumentumkezelés
+    - szállítás
+    - szerviz
+    - gyártás
+    - minőségügy
+    - szabályozás
+    - szállítói kapcsolatok
+    - vevői kapcsolatok
+    - pénzügyek
+- System (SYS)
+  - instance megnevezése, létrehozás időpontja, fő fiók
+  - számlázási fiókok
+  - aktuális szolgáltatások
+  - fizetendő szolgáltatások
+  - integrációk
+  - export / import
+  - URL átirányítások
+  - linkrövidítés
+- Account
+  - saját adatok
+  - jelenléti ív
+  - jegyzet
+  - naptár
+  - webmail
+  - tárhely
+  - jelszómódosítás
+  - kijelentkezés
+- Support
+  - ticket
+  - névjegy
+  - súgó
+  - felhasználói dokumentáció
+
+---
+
 ## Installation
 
 ### Composer
