@@ -14,13 +14,13 @@
         }
     ],
     "require": {
-        "php": ">=8.3",
-        "symfony/debug-bundle": "^7.1"
+        "php": ">=8.3"
     },
     "require-dev": {
         "symfony/dependency-injection": "^7.1",
         "symfony/framework-bundle": "^7.1",
         "symfony/http-kernel": "^7.1",
-        "phpunit/phpunit": "^11.2"
+        "phpunit/phpunit": "^11.2",
+        "symfony/debug-bundle": "^7.1"
     }
 }
