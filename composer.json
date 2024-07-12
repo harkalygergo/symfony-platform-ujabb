@@ -1,6 +1,6 @@
 {
     "name": "harkalygergo/symfony-platform",
-    "description": "Symfony Platform is a multisite and multilingual compatibility Business Management System as a Symfony PHP Framework vendor bundle.\nIt's ideal for growing any business.\n\nFree and open-source and always will be.",
+    "description": "Symfony Platform is a multisite and multilingual compatibility Business Management System as a Symfony PHP Framework vendor bundle. It's ideal for growing any business. Free and open-source and always will be.",
     "type": "symfony-library",
     "license": "MIT",
     "autoload": {
