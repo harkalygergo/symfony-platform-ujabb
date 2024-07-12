@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "579c00cc063efbc34a7bac727f85cf92",
+    "content-hash": "fb540b94a0ffd90af577598f07427c33",
     "packages": [],
     "packages-dev": [
         {
@@ -3275,6 +3275,54 @@
             "time": "2024-06-19T12:35:24+00:00"
         },
         {
+            "name": "symfony/profiler-pack",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/profiler-pack.git",
+                "reference": "bcd6e80af9819454ac18594362e7875fd1d771c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/profiler-pack/zipball/bcd6e80af9819454ac18594362e7875fd1d771c7",
+                "reference": "bcd6e80af9819454ac18594362e7875fd1d771c7",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/stopwatch": "*",
+                "symfony/web-profiler-bundle": "*"
+            },
+            "require-dev": {
+                "symfony/stopwatch": "*",
+                "symfony/web-profiler-bundle": "*"
+            },
+            "type": "symfony-pack",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A pack for the Symfony web profiler",
+            "support": {
+                "issues": "https://github.com/symfony/profiler-pack/issues",
+                "source": "https://github.com/symfony/profiler-pack/tree/v1.0.6"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-08-20T17:27:58+00:00"
+        },
+        {
             "name": "symfony/routing",
             "version": "v7.1.1",
             "source": {
@@ -3437,6 +3485,68 @@
                 }
             ],
             "time": "2024-04-18T09:32:20+00:00"
+        },
+        {
+            "name": "symfony/stopwatch",
+            "version": "v7.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/stopwatch.git",
+                "reference": "5b75bb1ac2ba1b9d05c47fc4b3046a625377d23d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/5b75bb1ac2ba1b9d05c47fc4b3046a625377d23d",
+                "reference": "5b75bb1ac2ba1b9d05c47fc4b3046a625377d23d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/service-contracts": "^2.5|^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Stopwatch\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides a way to profile code",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/stopwatch/tree/v7.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-05-31T14:57:53+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -3626,6 +3736,90 @@
             "time": "2024-05-31T14:57:53+00:00"
         },
         {
+            "name": "symfony/twig-bundle",
+            "version": "v7.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/twig-bundle.git",
+                "reference": "d48c2f08c2f315e749f0e18fc4945b7be8afe1e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/twig-bundle/zipball/d48c2f08c2f315e749f0e18fc4945b7be8afe1e5",
+                "reference": "d48c2f08c2f315e749f0e18fc4945b7be8afe1e5",
+                "shasum": ""
+            },
+            "require": {
+                "composer-runtime-api": ">=2.1",
+                "php": ">=8.2",
+                "symfony/config": "^6.4|^7.0",
+                "symfony/dependency-injection": "^6.4|^7.0",
+                "symfony/http-foundation": "^6.4|^7.0",
+                "symfony/http-kernel": "^6.4|^7.0",
+                "symfony/twig-bridge": "^6.4|^7.0",
+                "twig/twig": "^3.0.4"
+            },
+            "conflict": {
+                "symfony/framework-bundle": "<6.4",
+                "symfony/translation": "<6.4"
+            },
+            "require-dev": {
+                "symfony/asset": "^6.4|^7.0",
+                "symfony/expression-language": "^6.4|^7.0",
+                "symfony/finder": "^6.4|^7.0",
+                "symfony/form": "^6.4|^7.0",
+                "symfony/framework-bundle": "^6.4|^7.0",
+                "symfony/routing": "^6.4|^7.0",
+                "symfony/stopwatch": "^6.4|^7.0",
+                "symfony/translation": "^6.4|^7.0",
+                "symfony/web-link": "^6.4|^7.0",
+                "symfony/yaml": "^6.4|^7.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\TwigBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides a tight integration of Twig into the Symfony full-stack framework",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/twig-bundle/tree/v7.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-05-31T14:57:53+00:00"
+        },
+        {
             "name": "symfony/var-dumper",
             "version": "v7.1.2",
             "source": {
@@ -3783,6 +3977,87 @@
                 }
             ],
             "time": "2024-06-28T08:00:31+00:00"
+        },
+        {
+            "name": "symfony/web-profiler-bundle",
+            "version": "v7.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/web-profiler-bundle.git",
+                "reference": "82b22245d9f3ef8ccb1d55d4e8ade8bc3885c302"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/82b22245d9f3ef8ccb1d55d4e8ade8bc3885c302",
+                "reference": "82b22245d9f3ef8ccb1d55d4e8ade8bc3885c302",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/config": "^6.4|^7.0",
+                "symfony/framework-bundle": "^6.4|^7.0",
+                "symfony/http-kernel": "^6.4|^7.0",
+                "symfony/routing": "^6.4|^7.0",
+                "symfony/twig-bundle": "^6.4|^7.0",
+                "twig/twig": "^3.10"
+            },
+            "conflict": {
+                "symfony/form": "<6.4",
+                "symfony/mailer": "<6.4",
+                "symfony/messenger": "<6.4"
+            },
+            "require-dev": {
+                "symfony/browser-kit": "^6.4|^7.0",
+                "symfony/console": "^6.4|^7.0",
+                "symfony/css-selector": "^6.4|^7.0",
+                "symfony/stopwatch": "^6.4|^7.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\WebProfilerBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides a development tool that gives detailed information about the execution of any request",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "dev"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/web-profiler-bundle/tree/v7.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-06-25T19:55:06+00:00"
         },
         {
             "name": "theseer/tokenizer",
