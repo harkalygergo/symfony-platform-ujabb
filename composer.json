@@ -1,5 +1,6 @@
 {
     "name": "harkalygergo/symfony-platform",
+    "description": "Symfony Platform",
     "type": "symfony-library",
     "autoload": {
         "psr-4": {
@@ -12,6 +13,9 @@
             "email": "git@harkalygergo.hu"
         }
     ],
+    "require": {
+        "php": ">=8.3"
+    },
     "require-dev": {
         "symfony/dependency-injection": "^7.1",
         "symfony/framework-bundle": "^7.1",
